@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  jethi_Tech,
+  sauhard,
+  hackvengers,
+  sap,
+  postgres,
+  graphql,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -109,18 +115,26 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "postgresql",
+    icon: postgres,
   },
+  {
+    name: "graphql",
+    icon: graphql,
+  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack(MERN) Developer",
+    company_name: "Jethi Tech Solutions",
+    icon: jethi_Tech,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - June 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,37 +143,38 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Fellowship",
+    company_name: "Sauhard Non Profitable Organization",
+    icon: sauhard,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2022 - may 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Interacted with people of defferent backgrounds & deifferent beliefs.",
+      "Under this fellowship got opportunity to work with people of different mindset to eradicate social evils.",
+      "Learned Field & Team Work.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "HackVengers",
+    icon: hackvengers,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2023 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and Managed to get more than 30,000 engagements within 5 days of its launch",
+      "Provided Constant Support till Deployment.",
+      "Under this fellowship got opportunity to work with people of different mindset to eradicate social evils.",
+      "Improved the Engagement and Fame for the organization",
+      "Technologies used - HTML, CSS, JavaScript,SASS,GSAP & Bootstrap.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "InternShip",
+    company_name: "SAP",
+    icon: sap,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "13 Feb 2023 - 10 May",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,7 +182,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  
 ];
 
 const testimonials = [

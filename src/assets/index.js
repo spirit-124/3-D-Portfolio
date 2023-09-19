@@ -30,6 +30,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import jethi_Tech from "./jethi_Tech.jpeg";
+import sauhard from "./sauhard.png";
+import hackvengers from "./hackvengers.png";
+import sap from "./sap.png";
+import postgres from "./postgres.png";
+import graphql from "./grphql.png";
 
 export {
   logo,
@@ -60,5 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
-  main_logo
+  main_logo,
+  jethi_Tech,
+  sauhard,
+  hackvengers,
+  sap,
+  graphql,
+  postgres,
 };
