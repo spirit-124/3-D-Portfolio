@@ -37,6 +37,10 @@ import sap from "./sap.png";
 import postgres from "./postgres.png";
 import graphql from "./grphql.png";
 
+import chatGPT from "./projects/chatGPT.png";
+import hackvengers_project from "./projects/hackvengers_project.png";
+import nike_clone from "./projects/nike_clone.png";
+
 export {
   logo,
   backend,
@@ -73,4 +77,7 @@ export {
   sap,
   graphql,
   postgres,
+  chatGPT,
+  hackvengers_project,
+  nike_clone,
 };
