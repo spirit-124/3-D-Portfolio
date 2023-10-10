@@ -40,6 +40,14 @@ import graphql from "./grphql.png";
 import chatGPT from "./projects/chatGPT.png";
 import hackvengers_project from "./projects/hackvengers_project.png";
 import nike_clone from "./projects/nike_clone.png";
+import BackgroundVideo from "./BackgroundVideo.mp4";
+import Resume from "./resume.png";
+import hire from "./hire.png";
+
+import githubLogo from "./socials/github-logo.png";
+import instagram from "./socials/instagram.png";
+import twitter from "./socials/twitter.png";
+import linkdein from "./socials/linkedin.png";
 
 export {
   logo,
@@ -80,4 +88,11 @@ export {
   chatGPT,
   hackvengers_project,
   nike_clone,
+  BackgroundVideo,
+  Resume,
+  hire,
+  githubLogo,
+  twitter,
+  instagram,
+  linkdein,
 };

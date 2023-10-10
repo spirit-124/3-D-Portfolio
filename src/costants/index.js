@@ -32,20 +32,28 @@ import {
   chatGPT,
   hackvengers_project,
   nike_clone,
+  linkdein,
+  instagram,
+  githubLogo,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About",
   },
   {
-    id: "work",
+    id: "#work",
     title: "Work",
   },
   {
-    id: "contact",
+    id: "#contact",
     title: "Contact",
+  },
+  {
+    id: "https://drive.google.com/file/d/1broLdJuDRR3aRXNhix_Y-I9d__rMW4-g/view?usp=sharing",
+    title: "Resume",
   },
 ];
 
@@ -68,6 +76,24 @@ const services = [
   },
 ];
 
+const socials = [
+  {
+    id: "https://www.linkedin.com/in/bajrang-kumar-21184b20b/",
+    icon: linkdein,
+  },
+  {
+    id: "https://github.com/spirit-124",
+    icon: githubLogo,
+  },
+  {
+    id: "https://twitter.com/Agraw512Kumar",
+    icon: twitter,
+  },
+  {
+    id: "#instagram",
+    icon: instagram,
+  },
+];
 const technologies = [
   {
     name: "HTML 5",
@@ -346,4 +372,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socials };

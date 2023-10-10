@@ -10,6 +10,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import heroBackroundVideo from "./components/BackgroundVideo";
 const App = () => {
   return (
     <BrowserRouter>
