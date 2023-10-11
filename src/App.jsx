@@ -12,6 +12,7 @@ import {
 } from "./components";
 import heroBackroundVideo from "./components/BackgroundVideo";
 import { BackgroundVideo } from "./assets";
+
 const App = () => {
   return (
     <BrowserRouter>
