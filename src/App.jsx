@@ -11,9 +11,11 @@ import {
   StarsCanvas,
 } from "./components";
 import heroBackroundVideo from "./components/BackgroundVideo";
+import { BackgroundVideo } from "./assets";
 const App = () => {
   return (
     <BrowserRouter>
+      {/* <heroBackroundVideo /> */}
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
