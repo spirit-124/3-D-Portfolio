@@ -41,7 +41,7 @@ import chatGPT from "./projects/chatGPT.png";
 import hackvengers_project from "./projects/hackvengers_project.png";
 import nike_clone from "./projects/nike_clone.png";
 import portfolio from "./projects/portfolio.png";
-import ewaste from "./projects/ewaste.png";
+import ewaste from "./projects/eWaste.png";
 import BackgroundVideo from "./backgroundVideo.mp4";
 import Resume from "./resume.png";
 import hire from "./hire.png";
