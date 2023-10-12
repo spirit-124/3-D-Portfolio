@@ -40,6 +40,8 @@ import graphql from "./grphql.png";
 import chatGPT from "./projects/chatGPT.png";
 import hackvengers_project from "./projects/hackvengers_project.png";
 import nike_clone from "./projects/nike_clone.png";
+import portfolio from "./projects/portfolio.png";
+import ewaste from "./projects/ewaste.png";
 import BackgroundVideo from "./backgroundVideo.mp4";
 import Resume from "./resume.png";
 import hire from "./hire.png";
@@ -48,6 +50,7 @@ import githubLogo from "./socials/github-logo.png";
 import instagram from "./socials/instagram.png";
 import twitter from "./socials/twitter.png";
 import linkdein from "./socials/linkedin.png";
+import socialMedia from "./projects/social-media.png";
 
 export {
   logo,
@@ -95,4 +98,7 @@ export {
   twitter,
   instagram,
   linkdein,
+  socialMedia,
+  portfolio,
+  ewaste,
 };

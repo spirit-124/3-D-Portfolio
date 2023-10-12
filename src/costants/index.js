@@ -36,6 +36,9 @@ import {
   instagram,
   githubLogo,
   twitter,
+  socialMedia,
+  portfolio,
+  ewaste,
 } from "../assets";
 
 export const navLinks = [
@@ -242,9 +245,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "GPT3",
+    name: "Social-Media-Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A fully Functional Website Responsive Website With Backend and Database. HAving Authentication Data Fetching, Timeline, Real Time Chat Feature",
     tags: [
       {
         name: "react",
@@ -258,6 +261,57 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Websockets",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: socialMedia,
+    deployment: "https://social-media-web-app-3drm.vercel.app/auth",
+    source_code_link:
+      "https://github.com/spirit-124/Social-Media-WebApp/tree/master/client",
+  },
+  {
+    name: "GPT3",
+    description:
+      "Web-based platform that allows users to Buy, sell, and manage their NFTs from various providers, providing a convenient and efficient solution for NFT Marketplace.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Genache",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Metamask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Alchemy Api",
+        color: "pink-text-gradient",
+      },
     ],
     image: chatGPT,
     deployment: "https://gpt-3-tawny-mu.vercel.app/",
@@ -266,7 +320,7 @@ const projects = [
   {
     name: "HackVengers",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "My First Freelancing Project, serving A beutifull UI and a lots of learning, An website made for an oragnization conducting PAN India Hackathon",
     tags: [
       {
         name: "react",
@@ -286,16 +340,38 @@ const projects = [
     source_code_link: "https://github.com/spirit-124/Hackvengers",
   },
   {
-    name: "Nike Clone",
+    name: "Personal Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Diving into the world of Three.js and to showcasing myself and work,  built an Stunning Portfolio",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    deployment: "https://bajrang.vercel.app/",
+    source_code_link: "https://github.com/spirit-124/3-D-Portfolio",
+  },
+  {
+    name: "Nike Clone",
+    description:
+      "A Clone cum Modified UI website of Nike shoes Brand ,Static single page webite having beautifull Ui. ",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
         color: "green-text-gradient",
       },
       {
@@ -307,68 +383,28 @@ const projects = [
     deployment: "https://nike-clone-ten.vercel.app/",
     source_code_link: "https://github.com/spirit-124/Nike_clone",
   },
+
   {
-    name: "hello",
+    name: "E-Waste  Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A single page static Website having beautiful UI and showcasing all the needed Content to boost User Engagement",
     tags: [
       {
-        name: "nextjs",
+        name: "HtML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SASS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ewaste,
+    deployment: "https://assignment-three-pearl.vercel.app/",
+    source_code_link: "",
   },
 ];
 
