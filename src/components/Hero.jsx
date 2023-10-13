@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { BackgroundVideo } from "../assets";
 import { fadeIn, textVariant } from "../utils/motion.js";
 import { Resume, hire } from "../assets";
 import { socials } from "../costants/index";

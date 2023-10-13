@@ -10,8 +10,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import heroBackroundVideo from "./components/BackgroundVideo";
-import { BackgroundVideo } from "./assets";
+// import heroBackroundVideo from "./components/BackgroundVideo";
 
 const App = () => {
   return (

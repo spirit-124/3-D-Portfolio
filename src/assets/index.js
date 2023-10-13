@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -42,7 +42,7 @@ import hackvengers_project from "./projects/hackvengers_project.png";
 import nike_clone from "./projects/nike_clone.png";
 import portfolio from "./projects/portfolio.png";
 import ewaste from "./projects/eWaste.png";
-import BackgroundVideo from "./backgroundVideo.mp4";
+
 import Resume from "./resume.png";
 import hire from "./hire.png";
 
@@ -53,7 +53,7 @@ import linkdein from "./socials/linkedin.png";
 import socialMedia from "./projects/social-media.png";
 
 export {
-  logo,
+  // logo,
   backend,
   creator,
   mobile,
@@ -91,7 +91,6 @@ export {
   chatGPT,
   hackvengers_project,
   nike_clone,
-  BackgroundVideo,
   Resume,
   hire,
   githubLogo,
