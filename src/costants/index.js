@@ -281,7 +281,7 @@ const projects = [
     image: socialMedia,
     deployment: "https://social-media-web-app-3drm.vercel.app/auth",
     source_code_link:
-      "https://github.com/spirit-124/Social-Media-WebApp/tree/master/client",
+      "https://github.com/spirit-124/Social-Media-WebApp/tree/master",
   },
   {
     name: "GPT3",
