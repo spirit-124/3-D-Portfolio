@@ -39,7 +39,7 @@ const Hero = () => {
                 <Button
                   tittle="resume"
                   icon={Resume}
-                  href="https://drive.https://drive.google.com/file/d/1U7-qc669F7romHe8SqT8p-SZ2DTRge8i/view.com/file/d/1broLdJuDRR3aRXNhix_Y-I9d__rMW4-g/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1V7hwScEkib23Y8HWTg-LSiPir919zLO-/view?usp=sharing"
                 />
                 <Button tittle="Hire Me" icon={hire} href="#contact" />
               </div>

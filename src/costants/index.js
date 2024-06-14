@@ -22,7 +22,10 @@ import {
   carrent,
   jobit,
   tripguide,
+  innodata,
   threejs,
+  adSyncMedia,
+  shopO,
   jethi_Tech,
   sauhard,
   hackvengers,
@@ -162,6 +165,17 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Data Annotator",
+    company_name: "Innodata Inc.",
+    icon: innodata,
+    iconBg: "#383E56",
+    date: "Septempber 2023 - Present",
+    points: [
+      "Working on Annotation for JSON based data",
+      "Providing Annotation services to a number of US clients",
+    ],
+  },
+  {
     title: "Full Stack(MERN) Developer",
     company_name: "Jethi Tech Solutions",
     icon: jethi_Tech,
@@ -245,9 +259,84 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AdSyncMedia",
+    description:
+      "Developed a visually appealing website for a freelance client",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Websockets",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: adSyncMedia,
+    deployment: "https://adsyncmedia.in/",
+  },
+  {
+    name: "Shop-O",
+    description:
+      "Developed an MultiVendor e-commerce platform using MERN Stack achieving a 40% improvement in page load times and a 25% increase in user engagement",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Websockets",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: shopO,
+    deployment: "https://shop-o-seven.vercel.app/",
+    source_code_link: "https://github.com/spirit-124/Shop-O",
+  },
+  {
     name: "Social-Media-Website",
     description:
-      "A fully Functional Website Responsive Website With Backend and Database. HAving Authentication Data Fetching, Timeline, Real Time Chat Feature",
+      "A fully Functional  Responsive Website With Backend and Database. HAving Authentication Data Fetching, Timeline, Real Time Chat Feature",
     tags: [
       {
         name: "react",

@@ -31,6 +31,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import jethi_Tech from "./jethi_Tech.jpeg";
+import innodata from "./innodata.png";
+import shopO from "./shop-O.png";
+import adSyncMedia from "./Adsyncedia.png";
 import sauhard from "./sauhard.png";
 import hackvengers from "./hackvengers.png";
 import sap from "./sap.png";
@@ -100,4 +103,7 @@ export {
   socialMedia,
   portfolio,
   ewaste,
+  shopO,
+  adSyncMedia,
+  innodata,
 };
